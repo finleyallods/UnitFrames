@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIAddon>
+    <Name>UnitFrames</Name>
+    <AutoStart>true</AutoStart>
+    <ScriptFileRefs>
+        <Item href="Scripts/LibDnD.lua"/>
+        <Item href="config/Config.lua"/>
+        <Item href="scripts/StringService.lua"/>
+        <Item href="scripts/LogService.lua"/>
+        <Item href="scripts/WidgetService.lua"/>
+        <Item href="scripts/WidgetState.lua"/>
+        <Item href="scripts/UnitFrames.lua"/>
+    </ScriptFileRefs>
+    <visObjects href=""/>
+    <texts href=""/>
+    <www/>
+    <author>Finley</author>
+    <revision></revision>
+    <lastUpdate/>
+    <MainFormId>MainForm</MainFormId>
+    <Forms>
+        <Item>
+            <Id>MainForm</Id>
+            <Form href="gui/MainForm.(WidgetForm).xdb"/>
+        </Item>
+    </Forms>
+    <addon_name>WeakAuras</addon_name>
+    <addon_date></addon_date>
+    <addon_link></addon_link>
+    <localizedNameFileRef href="name.txt"/>
+    <localizedDescFileRef href="desc.txt"/>
+</UIAddon>
